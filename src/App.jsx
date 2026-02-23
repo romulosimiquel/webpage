@@ -27,7 +27,7 @@ function App() {
   return (
     <>
       <div className='container'>
-        <img className='yo' src="public/pic.jpg" alt="" />
+        <img className='yo' src="/pic.jpg" alt="" />
         <h2>Hello, I'm Romulo</h2>
         
         <h3>Been working with software engineering for the past 8 years.</h3>
@@ -37,14 +37,14 @@ function App() {
         
           <a href="https://github.com/romulosimiquel" target="_blank" rel="noopener noreferrer">Github</a>
 
-          <a href="public/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>        
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>        
         
           <a href="https://link.chess.com/friend/OzByfT" target="_blank" rel="noopener noreferrer">Let's play some chess</a>
         </div>
       </div>
       <div className='footer'>
         <span> 
-            <img className={`ladybug${ladyBug ? ' visible' : ''}`} src="public/ladybug.gif" alt="" />
+            <img className={`ladybug${ladyBug ? ' visible' : ''}`} src="/ladybug.gif" alt="" />
           I'm still working on this page, if you see any bugs around, please let me know!
           </span>
       </div>
