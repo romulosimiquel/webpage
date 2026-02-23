@@ -65,9 +65,38 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-} 
+}
 
-.Links {
-  margin-top: 50px;
-  padding-left: 1000px;
+.container {
+  align-content: center;
+}
+
+.yo {
+  width: 30%;
+  border-radius: 5%;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.footer {
+  padding-top: 50px;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+
+.ladybug {
+  height: 40px;
+  width: 40px;
+  transition: opacity 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.ladybug.visible {
+  opacity: 1;
+  visibility: visible;
 }
